@@ -106,6 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
   font-weight: normal;
   line-height: 1.2;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -177,15 +178,15 @@ table {
 }
 
 .spacing-both {
-  padding: 2em 0;
+  padding: 4em 0;
 }
 
 .spacing-top {
-  padding-top: 2em;
+  padding-top: 4em;
 }
 
 .spacing-bottom {
-  padding-bottom: 2em;
+  padding-bottom: 4em;
 }
 
 .dark {
