@@ -25,5 +25,5 @@ end
 
 # Deploy-specific configuration
 activate :gh_pages do |gh_pages|
-  gh_pages.remote = 'https://github.com/partialconf/partialconf.github.io'
+  gh_pages.remote = 'https://github.com/partialconf/2017.partialconf.com'
 end
