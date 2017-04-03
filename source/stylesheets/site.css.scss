@@ -196,9 +196,10 @@ table {
   .accent-content {
     z-index: 5;
     position: relative;
-    width: 60%;
 
-    p:last-child { margin-bottom: 0; }
+    p { width: 50%; }
+
+    p:last-of-type { margin-bottom: 2em; }
   }
 }
 
