@@ -177,6 +177,38 @@ table {
   margin: 0 auto;
 }
 
+.accent-container {
+  transition: all .3s ease-in-out;
+  position: relative;
+
+  .accent {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -4em;
+    bottom: 0;
+    z-index: 0;
+
+    img {
+      max-width: 100%;
+      -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+      clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+  }
+
+  .accent-content {
+    z-index: 5;
+    position: relative;
+    top: 7em;
+    width: 75%;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: $blue;
+    color: #fff;
+    // width: 40%;
+  }
+}
+
 .spacing-both {
   padding: 4em 0;
 }
