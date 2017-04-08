@@ -76,26 +76,30 @@ body {
 }
 
 a {
-    position: relative;
-    color: $dark-blue;
-    text-decoration: none;
+  text-decoration: none;
+  color: black;
+}
 
-    &:before {
-      position: absolute;
-      left: 0;
-      bottom: -1px;
-      height: 1px;
-      width: 0;
-      content: '';
-      background-color: $dark-blue;
-      transition: all 0.2s ease-in-out;
-    }
-    &, &:hover { text-decoration: none; }
-    &:hover {
-      color: $dark-blue;
-      &:before { width: 100%; }
-    }
+a.fancy {
+  position: relative;
+  color: $dark-blue;
+
+  &:before {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 1px;
+    width: 0;
+    content: '';
+    background-color: $dark-blue;
+    transition: all 0.2s ease-in-out;
   }
+  &, &:hover { text-decoration: none; }
+  &:hover {
+    color: $dark-blue;
+    &:before { width: 100%; }
+  }
+}
 
 p { margin-bottom: 1em; }
 
