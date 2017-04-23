@@ -4,20 +4,15 @@ title: "partial :: Conf &rarr; Legal"
 
 <%= partial 'header' %>
 
-<section>
-  <div class="container">
-    <h3>Team</h3>
+<div class="spacing-both">
+  <div class="container accent-container">
+    <div class="accent">
+      <%= image_tag 'nap.png' %>
+    </div>
 
-    <ul>
-      <li>Svetlozar Todorov <br> <a href="mailto:svetlik@gmail.com">svetlik@gmail.com</a></li>
-      <li>Genadi Samokovarov <br> <a href="mailto:gsamokovarov@gmail.com">gsamokovarov@gmail.com</a></li>
-      <li>Svetlozar Mihailov <br> <a href="mailto:svetliomihailov@gmail.com">svetliomihailov@gmail.com</a></li>
-      <li>Vestimir Markov <br> <a href="mailto:vestimir@gmail.com">vestimir@gmail.com</a></li>
-    </ul>
-    <br><br>
+    <h2>Legal Information</h2>
 
-    <h3>Legal Information</h3>
-    <p>partial :: Conf is represented by the following entity:</p>
+    <p>Partial is represented by the following entity:</p>
 
     <p>
       <strong>EURUKO 2016</strong><br>
@@ -29,7 +24,58 @@ title: "partial :: Conf &rarr; Legal"
       <strong>Country:</strong> Bulgaria<br>
       <strong>Representative:</strong> Svetlozar Todorov
     </p>
+
+    <a href="mailto:hi@partialconf.com" class="btn-primary">Ask us anything</a>
   </div>
-</section>
+</div>
+
+<div class="light spacing-both">
+  <div class="container">
+    <h2 id="team">Team</h2>
+  </div>
+</div>
+
+<div class="light spacing-bottom">
+  <div class="container">
+    <div class="speakers">
+      <a href="https://twitter.com/svetlozaurus" class="speaker">
+        <div class="avatar">
+          <%= image_tag 'team/svetlik.jpg' %>
+        </div>
+
+        <strong>Svetlozar Todorov</strong>
+        <small>@svetlozaurus</small>
+      </a>
+
+      <a href="https://twitter.com/gsamokovarov" class="speaker">
+        <div class="avatar">
+          <%= image_tag 'team/genadi.png' %>
+        </div>
+
+        <strong>Genadi Samokovarov</strong>
+        <small>@gsamokovarov</small>
+      </a>
+
+      <a href="https://twitter.com/svetliomihailov" class="speaker">
+        <div class="avatar">
+          <%= image_tag 'team/svetliomihailov.jpg' %>
+        </div>
+
+        <strong>Svetlozar Mihailov</strong>
+        <small>@svetliomihailov</small>
+      </a>
+
+      <a href="https://twitter.com/vestimir" class="speaker">
+        <div class="avatar">
+          <%= image_tag 'team/vestimir.jpg' %>
+        </div>
+
+        <strong>Vestimir Markov</strong>
+        <small>@vestimir</small>
+      </a>
+    </div>
+  </div>
+</div>
+
 
 <%= partial 'footer' %>
