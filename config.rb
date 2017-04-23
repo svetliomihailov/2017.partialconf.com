@@ -1,20 +1,17 @@
-# Activate and configure extensions
-# https://middlemanapp.com/advanced/configuration/#configuring-extensions
-
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-# Layouts
-# https://middlemanapp.com/basics/layouts/
-
-# Per-page layout changes
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
-# Build-specific configuration
-# https://middlemanapp.com/advanced/configuration/#environment-specific-settings
+set :relative_links, true
+
+configure :development do
+  activate :livereload
+  activate :directory_indexes
+end
 
 configure :build do
   activate :asset_hash
@@ -23,7 +20,6 @@ configure :build do
   activate :minify_javascript
 end
 
-# Deploy-specific configuration
 activate :gh_pages do |gh_pages|
   gh_pages.remote = 'https://github.com/partialconf/2017.partialconf.com'
 end
