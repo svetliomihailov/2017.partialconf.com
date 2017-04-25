@@ -81,13 +81,17 @@ $all-text-inputs-focus:  assign-inputs($text-inputs-list, focus);
 $all-text-inputs-hover:  assign-inputs($text-inputs-list, hover);
 
 // Reset
-* { margin: 0; padding: 0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 // Base
 body {
   font-size: $base-font-size;
   font-family: $body-font;
   line-height: 1.45em;
+
+  @include bp($bp-mobile) {
+    font-size: 16px;
+  }
 }
 
 a {
@@ -275,7 +279,7 @@ table {
     background-image: url('/images/header.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 
     .overlay {
       position: absolute;
@@ -565,6 +569,16 @@ textarea { resize: vertical; }
     height: 1em;
     margin: 0 auto;
   }
+
+  @include bp($bp-mobile) {
+    width: em(80, $base-font-size);
+
+    &.logo-sm {
+      width: em(80, $base-font-size);
+      height: 1em;
+      margin: 0 auto;
+    }
+  }
 }
 
 .header {
@@ -574,7 +588,7 @@ textarea { resize: vertical; }
   background-image: url('/images/header.jpg');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   color: #fff;
 
   .overlay {
@@ -601,6 +615,22 @@ textarea { resize: vertical; }
 
   p {
     margin-bottom: 3em;
+  }
+
+  @include bp($bp-mobile) {
+    padding: 3em 0;
+
+    h2 {
+      font-size: 1.2em;
+    }
+
+    p {
+      font-size: .85em;
+    }
+
+    a[class^='btn-'] {
+      margin-bottom: .5em;
+    }
   }
 }
 
@@ -653,6 +683,15 @@ textarea { resize: vertical; }
       margin-right: 2em;
 
       &:last-child { margin-right: 0; }
+    }
+  }
+
+  @include bp($bp-mobile) {
+    .container { flex-wrap: wrap; }
+
+    nav {
+      display: none;
+      flex-wrap: wrap;
     }
   }
 }
@@ -709,6 +748,16 @@ textarea { resize: vertical; }
       &:last-child { margin-right: 0; }
     }
   }
+
+  @include bp($bp-mobile) {
+    .container { flex-wrap: wrap; }
+
+    nav {
+      margin-top: 1em;
+
+      a { margin-right: 1em; }
+    }
+  }
 }
 
 .text {
@@ -722,6 +771,10 @@ textarea { resize: vertical; }
     &:hover {
       text-decoration: none;
     }
+  }
+
+  @include bp($bp-mobile) {
+    // ol, ul { padding: 0; }
   }
 }
 
@@ -772,6 +825,21 @@ textarea { resize: vertical; }
 
       &:hover {
         transform: scale(1.05);
+      }
+    }
+  }
+
+  @include bp($bp-mobile) {
+    .speaker {
+      width: 47%;
+      margin-right: .5em;
+      margin-bottom: 1em;
+    }
+
+    .avatar {
+      img {
+        -webkit-clip-path: none;
+        clip-path: none;
       }
     }
   }
@@ -880,6 +948,18 @@ textarea { resize: vertical; }
   }
 
   .col { width: 49%; }
+
+  @include bp($bp-mobile) {
+    flex-wrap: wrap;
+
+    .col {
+      width: 100%;
+
+      &:first-child {
+        margin-bottom: 2em;
+      }
+    }
+  }
 }
 
 // Mailchimp
@@ -896,6 +976,17 @@ textarea { resize: vertical; }
       margin-right: .5em;
     }
   }
+
+  @include bp($bp-mobile) {
+    margin: 2em 0 0;
+
+    #mc_embed_signup_scroll {
+      flex-wrap: wrap;
+      width: 100%;
+
+      input { margin-bottom: 1em; }
+    }
+  }
 }
 
 // tickets
@@ -904,6 +995,15 @@ textarea { resize: vertical; }
     margin: 2em 0;
     color: $dark-gray;
   }
+
+  @include bp($bp-mobile) {
+    h4 { margin: 1em 0; }
+  }
+}
+
+// Section title
+.section-title {
+  h1, h2, h3, h4 { margin-bottom: 0; }
 }
 
 // Styleguide
