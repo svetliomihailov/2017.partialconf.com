@@ -4,16 +4,16 @@ title: "partial :: Conf &rarr; Ticket"
 
 <%= partial 'header' %>
 
-<section>
+<div class="spacing-both">
   <div class="container">
     <h1>Tickets</h1>
-    <p>This is the ticket reservation form for partial :: Conf. If you need more information or an invoice, please consult with the <a href="#faq">FAQ section</a>. </p> 
+    <p>This is the ticket reservation form for partial :: Conf. If you need more information or an invoice, please consult with the <a href="#faq">FAQ section</a>. </p>
     <script src="https://cdn.weemss.com/compiled/js/integration-embed.js?v76.9"></script><iframe src="https://event.gg/6168/form/6162" id="weemss_integration_6162" frameBorder="0" width="100%" height="450" scrolling="no"></iframe>
   </div>
-</section>
+</div>
 
-<section id="faq">
-  <div class="container">
+<div class="spacing-bottom" id="faq">
+  <div class="container text tickets">
     <h2>FAQ</h2>
 
     <h4>How do I get an invoice for my ticket?</h4>
@@ -22,7 +22,6 @@ title: "partial :: Conf &rarr; Ticket"
       If you have any questions or special requests for the invoice do not hesitate to contact us:
       <%= link_to 'hi@partialconf.com', 'mailto:hi@partialconf.com?subject=Invoice question' %>
     </p>
-
 
     <h4>What information do we collect?</h4>
     <p>We collect personal information from you when you purchase a ticket. You may however, visit our site anonymously.</p>
@@ -45,7 +44,7 @@ title: "partial :: Conf &rarr; Ticket"
 
     <h4>Transferring your ticket</h4>
     <p>If you’d like to transfer your ticket to a friend or colleague without the reservation being refunded, that’s no problem at all — no cancellation fees will occur. Don’t forget to send us the new attendee contact details at
-    <%= link_to 'partialconf@gmail.com', 'mailto:partialconf@gmail.com?subject=Ticket Transfer' %> no later than five days before the event you are registered for. We’ll sort it out quickly.</p>
+    <%= link_to 'hi@partialconf.com', 'mailto:hi@partialconf.com?subject=Ticket Transfer' %> no later than five days before the event you are registered for. We’ll sort it out quickly.</p>
 
     <h4>Event Cancellation</h4>
     <p>If the event is cancelled, We will fully refund your registration fee with no penalties or other reductions — no questions asked! However, we can’t cover travel or hotel reservation costs.</p>
@@ -53,13 +52,13 @@ title: "partial :: Conf &rarr; Ticket"
     <h4>Code of Conduct</h4>
     <p>All attendees shall conduct themselves at all times in accordance with the Conference’s Code of Conduct, as listed on <%= link_to 'http://berlincodeofconduct.org/', 'http://berlincodeofconduct.org/', target: '_blank' %>. We reserve the right to remove from the Conference a person, Company, or any Company representative(s) violating those standards. We will not refund anyone who violates the Code of Conduct.</p>
   </div>
-</section>
+</div>
 
-<section>
-  <div class="container">
+<div class="spacing-bottom">
+  <div class="container text">
     <h3>Need more information?</h3>
     <%= link_to 'Contact us', 'mailto:partialconf@gmail.com?subject=Tickets Question', class: 'btn' %>
   </div>
-</section>
+</div>
 
 <%= partial 'footer' %>

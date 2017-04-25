@@ -13,7 +13,8 @@ title: "partial :: Conf &rarr; Homepage"
       functional world and exchange ideas.
     </p>
 
-    <a href="#cfp" class="btn-default btn-invert">Call for Papers</a>
+    <a href="#cfp" class="btn-primary btn-invert">Subscribe for news</a>
+    <a href="#cfp" class="btn-default btn-invert">Become a speaker</a>
   </div>
 </div>
 
@@ -57,7 +58,7 @@ title: "partial :: Conf &rarr; Homepage"
         </div>
 
         <strong>Michał Muskała</strong>
-        <small>Ecto Core Team</small>
+        <small><em>Ecto</em> Core Team</small>
       </div>
 
       <div class="speaker">
@@ -66,7 +67,7 @@ title: "partial :: Conf &rarr; Homepage"
         </div>
 
         <strong>Saša Jurić</strong>
-        <small>Elixir in Action</small>
+        <small><em>Elixir</em> in Action</small>
       </div>
 
       <div class="speaker">
@@ -75,7 +76,7 @@ title: "partial :: Conf &rarr; Homepage"
         </div>
 
         <strong>Bozhidar Batzov</strong>
-        <small>CIDER, Rubocop</small>
+        <small><em>CIDER</em>, Rubocop</small>
       </div>
 
       <div class="speaker">
@@ -84,62 +85,69 @@ title: "partial :: Conf &rarr; Homepage"
         </div>
 
         <strong>Ilias Van Peer</strong>
-        <small>Elm Aficionado </small>
+        <small><em>Elm</em> Aficionado </small>
       </div>
     </div>
   </div>
 </div>
 
-<div class="spacing-both">
-  <div class="container accent-container">
-    <div class="accent">
-      <%= image_tag 'library_accent.png' %>
-    </div>
-
-    <div class="accent-content">
-      <h2 id="cfp">Call for Papers</h2>
-      <p>
-        We seek to provide talks encompassing a wide variety of technologies.
-        Everyone with a strong interest in functional programming for the web
-        is welcomed to share their knowledge and experience.
-      </p>
-      <p>
-        Whether it is a topic you have been researching for a while, or a
-        piece of technology that has been giving you a hard time until you
-        finally managed to reveal its inner workings, we would really like to
-        hear what you have to share!
-      </p>
-      <a href="https://goo.gl/qGfmds" class="btn-primary btn-invert">Send proposal</a>
-    </div>
+<div class="light spacing-bottom">
+  <div class="container cta">
+    <a href="/#cfp" class="btn-primary">Send proposal</a>
   </div>
 </div>
 
 <div class="dark spacing-both image sofia">
   <div class="overlay"></div>
   <div class="container text">
-    <h2 id="sofia">About Sofia</h2>
-    <p>
-      What better time to enjoy the first days of autumn than late September?
-      And what better place than sunny Sofia?
-    </p>
-    <p>
-      We have delicious food, affordable prices, and a rapidly growing
-      programming community with members involved in a variety of
-      technologies.
-    </p>
-    <p>
-      There are a myriad of activities you can partake in outside of our
-      humble conference: go for a hike in Vitosha mountain, plan a one-day trip
-      to Rila Monastery, or simply enjoy a relaxed walk on the streets of
-      Sofia, taking a nice meal at one of the many restaurants in the city
-      center.
-    </p>
+    <h2>Subscribe for news</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, inventore consequatur fugiat animi non repellat iusto provident aut libero alias, aliquam sapiente commodi nostrum numquam ex dolorem illum, neque odit.</p>
+
+    <div class="mailchimp">
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="//partialconf.us15.list-manage.com/subscribe/post?u=956b02b076ff39618af330bb0&amp;id=6e539c98fc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div class="hide"><input type="text" name="b_956b02b076ff39618af330bb0_6e539c98fc" tabindex="-1" value=""></div>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-primary btn-invert">
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+    </div>
   </div>
 </div>
 
-<div class="subscribe">
-  <input type="email" placeholder="Subscribe for news..." />
-  <button class="btn-primary">&rarr;</button>
+<div class="spacing-both" id="cfp">
+  <div class="container">
+    <div class="spotlight">
+      <div class="col">
+        <h3>Call for speakers</h3>
+
+        <p>
+          We seek to provide talks encompassing a wide variety of technologies.
+          Everyone with a strong interest in functional programming for the web
+          is welcomed to share their knowledge and experience.
+        </p>
+        <p>
+          Whether it is a topic you have been researching for a while, or a
+          piece of technology that has been giving you a hard time until you
+          finally managed to reveal its inner workings, we would really like to
+          hear what you have to share!
+        </p>
+
+        <div class="btn-wrapper">
+          <a href="https://goo.gl/qGfmds" class="btn-primary" target="_blank">Send proposal</a>
+        </div>
+      </div>
+
+      <div class="col">
+        <%= image_tag 'sofia.png' %>
+      </div>
+    </div>
+  </div>
 </div>
 
 <%= partial 'footer' %>

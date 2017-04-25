@@ -43,6 +43,21 @@ $browser-context: 16;
   @return $list;
 }
 
+$bp-phone: "(max-width: 600px)";
+$bp-mobile: "(max-width: 939px)";
+$bp-desktop: "(min-width: 940px)";
+@mixin bp($point) {
+  @if $point == $bp-desktop {
+    @media #{$bp-desktop} { @content; }
+  }
+  @else if $point == $bp-mobile {
+    @media #{$bp-mobile}  { @content; }
+  }
+  @else if $point == $bp-phone {
+    @media #{$bp-phone}  { @content; }
+  }
+}
+
 $text-inputs-list: 'input[type="color"]',
                    'input[type="date"]',
                    'input[type="datetime"]',
@@ -167,18 +182,19 @@ table {
     border-bottom: 1px solid $light-gray;
     transition: all .3s ease-in-out;
   }
-
-  // tbody {
-  //   tr:hover {
-  //     td, th { border-bottom-color: $dark-gray; }
-  //   }
-  // }
 }
+
+.hide { display: none; }
 
 // Layout
 .container {
   width: 980px;
   margin: 0 auto;
+
+  @include bp($bp-mobile) {
+    width: 100%;
+    padding: 0 1em;
+  }
 }
 
 .accent-container {
@@ -195,13 +211,23 @@ table {
     img {
       max-height: 100%;
     }
+
+    @include bp($bp-mobile) {
+      display: none;
+    }
   }
 
   .accent-content {
     z-index: 5;
     position: relative;
 
-    p { width: 50%; }
+    p {
+      width: 50%;
+
+      @include bp($bp-mobile) {
+        width: 100%;
+      }
+    }
 
     p:last-of-type { margin-bottom: 2em; }
   }
@@ -209,14 +235,26 @@ table {
 
 .spacing-both {
   padding: 4em 0;
+
+  @include bp($bp-mobile) {
+    padding: 2em 0;
+  }
 }
 
 .spacing-top {
   padding-top: 4em;
+
+  @include bp($bp-mobile) {
+    padding-top: 2em;
+  }
 }
 
 .spacing-bottom {
   padding-bottom: 4em;
+
+  @include bp($bp-mobile) {
+    padding-bottom: 2em;
+  }
 }
 
 .dark {
@@ -268,6 +306,8 @@ table {
     border-color: $gray;
   }
 }
+
+.spacer { margin-top: 3em; }
 
 // Buttons
 %btn {
@@ -673,6 +713,16 @@ textarea { resize: vertical; }
 
 .text {
   p:last-child { margin-bottom: 0; }
+
+  ul, ol { list-style-position: inside; }
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .cta {
@@ -701,6 +751,16 @@ textarea { resize: vertical; }
 
     strong { display: block; }
     small { color: $dark-gray; }
+    em {
+      font-weight: bold;
+      font-style: normal;
+    }
+  }
+
+  .cfp-speaker {
+    @include bp($bp-mobile) {
+      display: none;
+    }
   }
 
   .avatar {
@@ -804,6 +864,45 @@ textarea { resize: vertical; }
     width: 15em;
     margin-right: 1em;
     font-size: 16px;
+  }
+}
+
+// Spotlight
+.spotlight {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+  img { max-width: 100%; }
+
+  .btn-wrapper {
+    margin-top: 2em;
+  }
+
+  .col { width: 49%; }
+}
+
+// Mailchimp
+.mailchimp {
+  margin: 4em 0 2em;
+
+  #mc_embed_signup_scroll {
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    input {
+      margin-right: .5em;
+    }
+  }
+}
+
+// tickets
+.tickets {
+  h4 {
+    margin: 2em 0;
+    color: $dark-gray;
   }
 }
 
