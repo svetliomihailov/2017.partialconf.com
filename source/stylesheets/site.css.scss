@@ -821,6 +821,7 @@ textarea { resize: vertical; }
     img {
       max-width: 100%;
       transition: all .3s ease-in-out;
+      -moz-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
       -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
       clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
@@ -835,13 +836,6 @@ textarea { resize: vertical; }
       width: 47%;
       margin-right: .5em;
       margin-bottom: 1em;
-    }
-
-    .avatar {
-      img {
-        -webkit-clip-path: none;
-        clip-path: none;
-      }
     }
   }
 }
