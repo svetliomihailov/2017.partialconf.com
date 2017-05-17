@@ -762,6 +762,10 @@ textarea { resize: vertical; }
   }
 }
 
+.lineup {
+  @include angle(before, true);
+}
+
 .footer {
   @include angle(before);
 
