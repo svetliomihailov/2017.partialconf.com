@@ -15,6 +15,7 @@ $gray: #BDBDBD;
 $light-gray: #EFEFEF;
 $dark-gray: #999999;
 $green: #7ED321;
+$dark-sea-green: #4cb7b0;
 $dark-green: darken($green, 5%);
 
 // Mixins
@@ -484,6 +485,11 @@ table {
   &.btn-sm {
   padding: 0.5em 1em;
     font-size: .75em;
+  }
+
+  &.btn-big {
+  padding: 1em 2em;
+    font-size: 1em;
   }
 }
 
@@ -1229,3 +1235,46 @@ textarea { resize: vertical; }
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+.sponsor-packages {
+  .included {
+    font-size: 1.5em;
+    color: $dark-sea-green;
+
+    &.details {
+      font-size: 1em;
+      font-weight: bold;
+      color: $dark-sea-green;
+    }
+  }
+
+  .not-included {
+    font-size: 1.5em;
+    color: $red
+  }
+
+  .text-accent {
+    color: $dark-blue;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  td { text-align: center; }
+
+  .centered {
+    text-align: center;
+  }
+}
+
+.additional-sponsor-packages {
+  margin-top: 3em;
+  .text-accent {
+    color: $dark-blue;
+    font-size: 1.2em;
+    font-weight: bold;
+
+    &.pull-right {
+      float: right;
+    }
+  }
+}
