@@ -29,6 +29,7 @@ end
 activate :blog do |blog|
   blog.prefix = 'blog'
   blog.layout = 'blog_layout'
+  blog.permalink = '{title}'
 end
 
 activate :syntax
