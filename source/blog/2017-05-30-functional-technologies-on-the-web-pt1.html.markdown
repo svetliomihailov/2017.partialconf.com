@@ -8,7 +8,7 @@ tags:
 
 In recent years the functional approach have been front and central with the rise of real-time UIs, cloud computing and distributed systems. Functional technologies provide a lot of solutions that can help with these challenges, but with so many choices it’s usually difficult to decide where to start first, or go next.
 
-We [started](https://medium.com/@partialconf/announcement-2335684ba05d) Partial as a platform for exchanging knowledge and ideas. Our main goal is this new conference to become a annual gathering for the curious to learn, teach, and share.
+We [started](https://medium.com/@partialconf/announcement-2335684ba05d) Partial as a platform for exchanging knowledge and ideas. Our main goal is this new conference to become an annual gathering for the curious to learn, teach, and share.
 
 This is Part 1 of our attempt at collecting an overview of the functional technologies used on the web. This is what **PartialConf** is all about. Stay tuned for more!
 
@@ -31,7 +31,7 @@ main = putStrLn "Hello Partial!"
 
 There’s a great paper telling the history of Haskell, so if you are curious to learn more about the origins of this influential wizardry here’s [a document](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf?from=http%3A%2F%2Fresearch.microsoft.com%2F%7Esimonpj%2Fpapers%2Fhistory-of-haskell%2Fhistory.pdf) telling the story.
 
-*Are you intereseted in sharing your experience with Haskell? Come to Sofia and tell us all about it! [Apply for a talk](https://goo.gl/qGfmds).*
+*Are you interested in sharing your experience with Haskell? Come to Sofia and tell us all about it! [Apply for a talk](https://goo.gl/qGfmds).*
 
 ## [Scala](https://www.scala-lang.org)
 
@@ -79,6 +79,8 @@ Console.WriteLine("Hello Partial!")
 *Do you run on the .NET platform? If yes, then F# is something we are really excited to talk at Partial – [send a proposal for talk](https://goo.gl/qGfmds).*
 
 —
+
+Thats it for part one, next week we will talk about the origins of Erlang, Elixir and Elm. [Follow us on Twitter](http://twitter.com/partialconf), or [subscribe to the newsletter](http://partialconf.com/#subscribe) for more news about the conference.
 
 Have you considered applying for our Call for Speakers? It is **open until 16th of June**, so if you want to tell us more about Haskell, Scala, F# or anything else lambda – you can become a Partial speaker by submitting your talk.
 
