@@ -400,6 +400,17 @@ table {
   .post-header {
     padding: 4em 0;
     text-align: center;
+
+    h1 {
+      text-transform: none;
+      font-family: 'Noto Sans', sans-serif;
+    }
+
+    .post-meta {
+      color: $dark-gray;
+      margin: 2em 0;
+      font-size: .85em;
+    }
   }
 
   .content {
@@ -431,12 +442,6 @@ table {
       width: 100%;
       margin: 0;
     }
-  }
-
-  .post-meta {
-    color: $dark-gray;
-    margin: 2em 0;
-    font-size: .85em;
   }
 
   .highlight {

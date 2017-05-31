@@ -31,7 +31,7 @@ main = putStrLn "Hello Partial!"
 
 There’s a great paper telling the history of Haskell, so if you are curious to learn more about the origins of this influential wizardry here’s [a document](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/history.pdf?from=http%3A%2F%2Fresearch.microsoft.com%2F%7Esimonpj%2Fpapers%2Fhistory-of-haskell%2Fhistory.pdf) telling the story.
 
-*Are you intereseted in sharing your experience with Haskell? Come to Sofia and tell us all about it! [Apply for a talk](https://goo.gl/qGfmds). *
+*Are you intereseted in sharing your experience with Haskell? Come to Sofia and tell us all about it! [Apply for a talk](https://goo.gl/qGfmds).*
 
 ## [Scala](https://www.scala-lang.org)
 
@@ -51,7 +51,7 @@ object HelloWorld extends Application {
 
 Did you know there’s a [Scala implementation in Javascript](https://www.scala-js.org), making it possible to write Scala programs that can run in your browser?
 
-*If you are interested in presenting about Scala – [apply for a talk](https://goo.gl/qGfmds) on our Call for speakers. *
+*If you are interested in presenting about Scala – [apply for a talk](https://goo.gl/qGfmds) on our Call for speakers.*
 
 ## [F# (F Sharp)](http://fsharp.org)
 
