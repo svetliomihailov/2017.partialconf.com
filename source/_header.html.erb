@@ -1,6 +1,8 @@
+<% logo = defined?(branding) ? branding : true %>
+
 <div class="header-sm fixed">
   <div class="container">
-    <div class="branding">
+    <div class="branding <%= 'hidden' unless logo %>">
       <a href="/" class="logo logo-sm">partial :: Conf 2017</a>
     </div>
 
