@@ -1278,3 +1278,24 @@ textarea { resize: vertical; }
     }
   }
 }
+
+.blog {
+  article {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+
+    h1 {
+      margin-bottom: 0.5em;
+      color: $dark-blue;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .meta {
+      margin: em(20, 18) 0;
+      color: $gray;
+      font-size: 90%;
+    }
+  }
+}
