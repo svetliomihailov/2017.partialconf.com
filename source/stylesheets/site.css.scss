@@ -1237,20 +1237,23 @@ textarea { resize: vertical; }
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
 
 .sponsor-packages {
+  tbody {
+    th { font-weight: normal; }
+  }
+
   .included {
     font-size: 1.5em;
-    color: $dark-sea-green;
+    color: $green;
 
     &.details {
       font-size: 1em;
-      font-weight: bold;
-      color: $dark-sea-green;
+      color: #000;
     }
   }
 
   .not-included {
     font-size: 1.5em;
-    color: $red
+    color: $gray;
   }
 
   .text-accent {
@@ -1268,14 +1271,13 @@ textarea { resize: vertical; }
 
 .additional-sponsor-packages {
   margin-top: 3em;
+
   .text-accent {
-    color: $dark-blue;
+    color: #000;
     font-size: 1.2em;
     font-weight: bold;
 
-    &.pull-right {
-      float: right;
-    }
+    &.pull-right { float: right; }
   }
 }
 
