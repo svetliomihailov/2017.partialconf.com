@@ -753,13 +753,6 @@ textarea { resize: vertical; }
     margin-bottom: 3em;
   }
 
-  .header-sm.fixed {
-    position: absolute;
-    bottom: 0;
-    z-index: 2;
-    top: auto;
-  }
-
   @include bp($bp-mobile) {
     padding: 3em 0;
 
@@ -778,8 +771,6 @@ textarea { resize: vertical; }
 }
 
 .header-sm {
-  @include angle(after, true);
-
   padding: 1em;
   background-color: $blue;
   color: #fff;
@@ -789,15 +780,6 @@ textarea { resize: vertical; }
 
     &:hover { color: #fff; }
     &:before { background-color: #fff; }
-  }
-
-  &.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9;
-
   }
 
   .branding {

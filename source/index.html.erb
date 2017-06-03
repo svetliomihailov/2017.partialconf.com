@@ -2,6 +2,8 @@
 title: "partial :: Conf &rarr; Homepage"
 ---
 
+<%= partial 'header', locals: { home: true } %>
+
 <div class="header">
   <div class="container">
     <h1 class="logo logo-sm">partial :: Conf 2017</h1>
@@ -16,7 +18,6 @@ title: "partial :: Conf &rarr; Homepage"
     <a href="#apply" class="btn-default btn-invert">Become a speaker</a>
   </div>
 
-  <%= partial 'header', locals: { branding: false } %>
 </div>
 
 <div class="spacing-both">

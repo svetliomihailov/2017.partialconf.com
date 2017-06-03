@@ -1,13 +1,16 @@
-<% logo = defined?(branding) ? branding : true %>
+<% home = defined?(home) ? home : false %>
 
 <div class="header-sm fixed">
   <div class="container">
-    <div class="branding <%= 'hidden' unless logo %>">
+    <div class="branding <%= 'hidden' if home %>">
       <a href="/" class="logo logo-sm">partial :: Conf 2017</a>
     </div>
 
     <nav>
+      <% unless home %>
       <a href="/">About</a>
+      <% end %>
+
       <a href="/#apply">Become a speaker</a>
       <a href="/blog">Blog</a>
       <a href="/tickets" class="btn-primary btn-invert btn-sm">Tickets</a>
@@ -15,4 +18,6 @@
   </div>
 </div>
 
+<% unless home %>
 <div class="spacer">&nbsp;</div>
+<% end %>
