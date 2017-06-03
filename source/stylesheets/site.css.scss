@@ -450,7 +450,7 @@ table {
     padding: 2em;
   }
 
-  a.btn-success {
+  a[class*='btn-'] {
     text-decoration: none;
     color: white;
   }
