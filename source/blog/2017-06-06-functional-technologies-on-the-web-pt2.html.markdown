@@ -49,7 +49,7 @@ hello_world() -> io:fwrite("Hello, Partial\n").
 
 *If you use Erlang for your projects, Partial is an opportunity to share your experience with others. [Apply](https://goo.gl/qGfmds) for an Erlang talk!*
 
-## Elixir
+## [Elixir](https://elixir-lang.org)
 
 Speaking of Erlang and BEAM, there’s no way we can skip Elixir. For the past 6 years it grew in popularity and many developers started experimenting with it.
 
