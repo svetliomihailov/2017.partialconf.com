@@ -1,3 +1,7 @@
+activate :sprockets do |c|
+  c.expose_middleman_helpers = true
+end
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
