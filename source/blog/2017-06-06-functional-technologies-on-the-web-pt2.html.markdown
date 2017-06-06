@@ -12,6 +12,12 @@ Today we continue with part 2 of our overview of functional technologies.
 
 ## [Erlang](https://www.erlang.org/)
 
+Let's start this one with a short, but inspirational video:
+
+<div class="video-container">
+    <iframe width="980" height="551" src="https://www.youtube.com/embed/uKfKtXYLG78" frameborder="0" allowfullscreen></iframe>
+</div>
+
 Erlang was devised to improve the development of telephony related software in the labs of Ericsson in 1982. The very first versions were implemented in Prolog, but the need for better performance pushed engineers from Ericsson to start a complete rewrite by 1992. This brought the BEAM virtual machine, the heart of modern Erlang and, of course, the main driving force behind Elixir.
 
 Up until the late 90’s Erlang was with a closed source, but Ericsson recongised that in order to grow its popularity they need to share it with the community.

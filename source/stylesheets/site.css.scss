@@ -420,7 +420,12 @@ table {
       margin: 0 auto;
     }
 
-    p, ul, ol {
+    .video-container {
+      width: 980px;
+      margin: 0 auto;
+    }
+
+    p, ul, ol, .video-container {
       margin-bottom: 1em;
     }
 
