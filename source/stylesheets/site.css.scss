@@ -415,12 +415,12 @@ table {
   .content {
     line-height: 1.6;
 
-    p, h2, h3, h4 {
+    p, h2, h3, h4, ul, ol {
       width: 80%;
       margin: 0 auto;
     }
 
-    p {
+    p, ul, ol {
       margin-bottom: 1em;
     }
 
