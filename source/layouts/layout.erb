@@ -19,8 +19,10 @@
 
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    <%= partial 'fb_pixel' %>
   </head>
   <body>
+    <%= partial 'fb_events' %>
     <%= yield %>
 
     <%= partial 'analytics' %>
