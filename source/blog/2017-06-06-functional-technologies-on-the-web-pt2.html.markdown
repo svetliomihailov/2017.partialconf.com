@@ -71,9 +71,15 @@ At Partial, we’ll be covering Elixir with speakers like Saša Jurić (author o
 
 ## [Elm](http://elm-lang.org)
 
-Developers familiar with React, Redux and other popular web UI technologies will appreciate the simplicity of Elm. It’s a safe and fun way of building interfaces in the browser. The core principle is
+Developers familiar with React, Redux and other popular web UI technologies will appreciate the simplicity of Elm. It’s a safe and fun way of building interfaces in the browser.
 
 Elm was created by Evan Czaplicki for [his thesis](http://elm-lang.org/assets/papers/concurrent-frp.pdf) in 2012. The compiler is written in Haskell, and it’s a complete package – it has built-in REPL, dependency manager, debugger and libraries to manipulate the DOM. This means that you can quickly start developing your idea, without doing a tedious initial setup.
+
+Each Elm program is separated in three main parts:
+
+- Model - it holds the state of the application
+- Update - how you update your state
+- View - declarative representation of your interface
 
 Thanks to its focus on immutability and static types it helps developers in creating easy to maintain code and there’s practically no way you can ship broken code due to the strictness of its compiler. Another great thing about Elm is the helpful error reporting – every exception is accompanied with the most important details + documentation and links to online resources.
 
