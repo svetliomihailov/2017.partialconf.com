@@ -6,93 +6,21 @@ title: "partial :: Conf &rarr; Blog"
 
 <div class="spacing-both">
   <div class="container blog">
+    <% blog.articles.each do |article| %>
     <article>
       <h1>
-        <a class="fancy" href="/blog/functional-technologies-on-the-web-pt2">
-          Functional Technologies on the Web, pt. 2
-        </a>
+        <a class="fancy" href="<%= article.url %>"><%= article.title %></a>
       </h1>
 
       <div class="meta">
-        <time>Jun 6 2017</time>
+        <time><%= article.date.strftime('%b %e %Y') %></time>
       </div>
 
-      <p>
-        Last week we <a href="/blog/functional-technologies-on-the-web-pt1">covered</a>
-        the origins of Haskell, Scala and F#.
-        <br/>
-        Today we continue with part 2 of our overview of functional
-        technologies.
-      </p>
+      <p><%= article.summary %></p>
 
-      <a class="fancy" href="/blog/functional-technologies-on-the-web-pt2">Read more</a>
+      <a class="fancy" href="<%= article.url %>">Read more</a>
     </article>
-
-    <article>
-      <h1>
-        <a class="fancy" href="/blog/become-a-supporter">Become a supporter</a>
-      </h1>
-
-      <div class="meta">
-        <time>Jun 3 2017</time>
-      </div>
-
-      <p>
-        Hey hello, we are Genadi, Svetlio, Svetlio and Vestimir. We are the team behind Partial, a new conference from Sofia, Bulgaria focused on the impact of functional technologies on the web.
-        <br/>
-        Last year the four of us had the privilege of organizing...
-      </p>
-
-      <a class="fancy" href="/blog/become-a-supporter">Read more</a>
-    </article>
-
-    <article>
-      <h1>
-        <a class="fancy" href="/blog/functional-technologies-on-the-web-pt1">
-          Functional Technologies on the Web, pt. 1
-        </a>
-      </h1>
-
-      <div class="meta">
-        <time>May 30 2017</time>
-      </div>
-
-      <p>
-        In recent years the functional approach have been front and central with the rise of real-time UIs, cloud computing and distributed systems. Functional technologies provide...
-      </p>
-
-      <a class="fancy" href="/blog/functional-technologies-on-the-web-pt1">Read more</a>
-    </article>
-
-    <article>
-      <h1><a class="fancy" href="/blog/apply-for-speaking">Call for speakers</a></h1>
-
-      <div class="meta">
-        <time>May 1 2017</time>
-      </div>
-
-      <p>
-        Should I apply for Partial‘s Call for Speakers? I mean, they look cool and I’ve heard that Southeastern  Europe is nice and all...
-      </p>
-
-      <a class="fancy" href="/blog/apply-for-speaking">Read more</a>
-    </article>
-
-    <article>
-      <h1><a class="fancy" href="/blog/announcement">Hello everyone!</a></h1>
-
-      <div class="meta">
-        <time>April 26 2017</time>
-      </div>
-
-      <p>
-        Hi there. We are Genadi, Vestimir, Svetlio & Svetlio. It’s nice to meet you! 🤝
-        <br/>
-        You might have seen....
-      </p>
-
-      <a class="fancy" href="/blog/announcement">Read more</a>
-    </article>
+    <% end %>
   </div>
 </div>
 

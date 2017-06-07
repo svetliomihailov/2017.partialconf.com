@@ -8,6 +8,7 @@ gem 'middleman-blog'
 gem 'middleman-syntax'
 gem 'middleman-sprockets'
 gem 'turbolinks-source'
+gem 'nokogiri'
 
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
