@@ -33,7 +33,7 @@ end
 activate :blog do |blog|
   blog.prefix = 'blog'
   blog.layout = 'blog_layout'
-  blog.permalink = '{title}.html'
+  blog.permalink = '{title}'
   blog.summary_separator = /\n\n/
 end
 
