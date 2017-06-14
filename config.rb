@@ -38,3 +38,9 @@ activate :blog do |blog|
 end
 
 activate :syntax
+
+activate :ogp do |ogp|
+  ogp.namespaces = {og: data.ogp.og}
+  ogp.base_url = 'http://partialconf.com/'
+  ogp.blog = true
+end

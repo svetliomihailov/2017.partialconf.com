@@ -1,0 +1,6 @@
+title: Partial 2017 – 22-23 September 2017
+site_name: Partial 2017
+url: http://partialconf.com/
+description: Conference about functional technologies on the web. Visit Sofia, Bulgaria on September 22—23, 2017.
+type: website
+image: "http://partialconf.com/<%= image_path 'og_card.png' %>"
