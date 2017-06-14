@@ -827,6 +827,8 @@ textarea { resize: vertical; }
     }
 
     nav {
+      .about { display: none; }
+
       margin: 0 auto;
       flex-wrap: wrap;
     }
