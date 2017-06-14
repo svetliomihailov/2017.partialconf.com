@@ -819,10 +819,15 @@ textarea { resize: vertical; }
   }
 
   @include bp($bp-mobile) {
-    .container { flex-wrap: wrap; }
+    .container {
+      flex-wrap: wrap;
+      align-items: center;
+
+      .branding { display: none; }
+    }
 
     nav {
-      display: none;
+      margin: 0 auto;
       flex-wrap: wrap;
     }
   }
