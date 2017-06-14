@@ -8,6 +8,7 @@ $base-font-size: 18px;
 
 // Colors
 $blue: #2196F3;
+$blue-hint: #4DABF5;
 $dark-blue: darken($blue, 10%);
 $light-blue: #BBDEFB;
 $red: #FF5252;
@@ -834,8 +835,7 @@ textarea { resize: vertical; }
 .footer {
   @include angle(before);
 
-  opacity: .8;
-
+  background-color: $blue-hint;
   padding: 2em 0;
 
   a {
@@ -855,13 +855,10 @@ textarea { resize: vertical; }
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
   }
 
   .col, .col-2 { line-height: 2; }
-
   .col-2 { flex: 2; }
-
   .col { flex: 1; }
 }
 
