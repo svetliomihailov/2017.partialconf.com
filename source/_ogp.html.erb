@@ -1,3 +1,3 @@
 <% ogp_tags do |name, value| %>
-  <%= tag(:meta, name: name, property: ERB.new(value).result(binding)) %>
+  <%= tag(:meta, property: name, content: ERB.new(value).result(binding)) %>
 <% end %>
