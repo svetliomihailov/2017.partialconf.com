@@ -86,6 +86,8 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-ogp (1.1.0)
+      middleman-core (>= 3.2)
     middleman-sprockets (4.1.0)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -135,6 +137,7 @@ DEPENDENCIES
   middleman-blog
   middleman-gh_pages
   middleman-livereload
+  middleman-ogp
   middleman-sprockets
   middleman-syntax
   nokogiri

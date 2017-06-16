@@ -7,6 +7,7 @@ gem 'middleman-gh_pages'
 gem 'middleman-blog'
 gem 'middleman-syntax'
 gem 'middleman-sprockets'
+gem 'middleman-ogp'
 gem 'turbolinks-source'
 gem 'nokogiri'
 
