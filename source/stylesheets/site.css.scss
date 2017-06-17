@@ -835,10 +835,6 @@ textarea { resize: vertical; }
   }
 }
 
-#sponsorship {
-  @include angle(before, true);
-}
-
 .lineup {
   @include angle(before, true);
 }
