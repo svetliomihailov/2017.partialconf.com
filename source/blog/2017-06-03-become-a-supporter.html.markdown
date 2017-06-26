@@ -1,9 +1,7 @@
 ---
-
 title: Ways to support Partial
 date: 2017-06-03 08:41 UTC
 tags:
-
 ---
 
 Hey hello, we are Genadi, Svetlio, Svetlio and Vestimir. We are the team behind Partial, a new conference from Sofia, Bulgaria focused on the impact of functional technologies on the web.

@@ -1,9 +1,7 @@
 ---
-
 title: Functional Technologies on the Web, pt. 1
 date: 2017-05-30 16:12 UTC
 tags:
-
 ---
 
 In recent years the functional approach have been front and central with the rise of real-time UIs, cloud computing and distributed systems. Functional technologies provide a lot of solutions that can help with these challenges, but with so many choices it’s usually difficult to decide where to start first, or go next.

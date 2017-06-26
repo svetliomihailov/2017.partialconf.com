@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="google-site-verification" content="WI9F_89CgcujDanrmDXrbSozmM2JpbjIFcBCAOXQk2g" />
 
-    <title><%= current_page.data.title || "partial :: Conf -> Page" %></title>
+    <title>partial :: Conf -> <%= current_page.data.title.presence || "Homepage" %></title>
 
     <link rel="shortcut icon" href="/favicon.ico">
 

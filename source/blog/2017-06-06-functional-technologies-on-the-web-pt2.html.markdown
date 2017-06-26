@@ -1,9 +1,7 @@
 ---
-
 title: Functional Technologies on the Web, pt. 2
 date: 2017-06-06 11:29 UTC
 tags:
-
 ---
 
 Last week we [covered](http://partialconf.com/blog/functional-technologies-on-the-web-pt1) the origins of Haskell, Scala and F#.
