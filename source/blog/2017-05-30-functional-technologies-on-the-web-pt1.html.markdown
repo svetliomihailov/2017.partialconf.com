@@ -8,7 +8,7 @@ In recent years the functional approach have been front and central with the ris
 
 We [started](https://medium.com/@partialconf/announcement-2335684ba05d) Partial as a platform for exchanging knowledge and ideas. Our main goal is this new conference to become an annual gathering for the curious to learn, teach, and share.
 
-This is Part 1 of our attempt at collecting an overview of the functional technologies used on the web. This is what **PartialConf** is all about. Stay tuned for more!
+This is Part 1 of our attempt at collecting an overview of the functional technologies used on the web. This is what **Partial** is all about. Stay tuned for more!
 
 ## [Haskell](https://www.haskell.org)
 
@@ -47,7 +47,7 @@ object HelloWorld extends Application {
 }
 ```
 
-Did you know there’s a [Scala implementation in Javascript](https://www.scala-js.org), making it possible to write Scala programs that can run in your browser?
+Did you know there’s a [Scala implementation in JavaScript](https://www.scala-js.org), making it possible to write Scala programs that can run in your browser?
 
 *If you are interested in presenting about Scala – [apply for a talk](https://goo.gl/qGfmds) on our Call for speakers.*
 
