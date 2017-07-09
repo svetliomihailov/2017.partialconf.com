@@ -1,0 +1,39 @@
+- name: Michał Muskała
+  tagline: <em>Ecto</em> Core Team
+  image: speakers/michal.jpg
+
+- name: Saša Jurić
+  tagline: <em>Elixir</em> in Action
+  image: speakers/sasa.png
+
+- name: Bozhidar Batzov
+  tagline: <em>Clojure</em>, CIDER, Rubocop
+  image: speakers/bozhidar.jpg
+
+- name: Ilias Van Peer
+  tagline: <em>Elm</em> Aficionado
+  image: speakers/ilias.png
+
+- name: Anjana Vakil
+  tagline: <em>JS</em> Immutable Structures
+  image: speakers/anjana.png
+
+- name: Emin Hasanov
+  tagline: <em>ClojureScript</em> + React Native
+  image: speakers/emin.png
+
+- name: Anna Doubkova
+  tagline: <em>React</em> FP
+  image: speakers/anna.jpg
+
+- name: Pedro Costa
+  tagline: Functional <em>Discipline</em>
+  image: speakers/pedro.jpg
+
+- name: Ivan Vergilov
+  tagline: Persistent <em>Data Structures</em>
+  image: speakers/ivan.jpg
+
+- name: Yulia Startsev
+  tagline: <em>Side Effects</em> Saga
+  image: speakers/yulia.jpg
