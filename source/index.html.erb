@@ -56,41 +56,16 @@ title: Homepage
 <div class="light spacing-bottom">
   <div class="container">
     <div class="speakers">
+      <% data.speakers.each do |speaker| %>
       <div class="speaker">
         <div class="avatar">
-          <%= image_tag 'speakers/michal.jpg' %>
+          <%= image_tag speaker.image %>
         </div>
 
-        <strong>Michał Muskała</strong>
-        <small><em>Ecto</em> Core Team</small>
+        <strong><%= speaker.name %></strong>
+        <small><%= speaker.tagline %></small>
       </div>
-
-      <div class="speaker">
-        <div class="avatar">
-          <%= image_tag 'speakers/sasa.png' %>
-        </div>
-
-        <strong>Saša Jurić</strong>
-        <small><em>Elixir</em> in Action</small>
-      </div>
-
-      <div class="speaker">
-        <div class="avatar">
-          <%= image_tag 'speakers/bozhidar.jpg' %>
-        </div>
-
-        <strong>Bozhidar Batzov</strong>
-        <small><em>Clojure</em>, CIDER, Rubocop</small>
-      </div>
-
-      <div class="speaker">
-        <div class="avatar">
-          <%= image_tag 'speakers/ilias.png' %>
-        </div>
-
-        <strong>Ilias Van Peer</strong>
-        <small><em>Elm</em> Aficionado </small>
-      </div>
+      <% end %>
     </div>
   </div>
 </div>
