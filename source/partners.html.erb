@@ -1,0 +1,49 @@
+---
+title: Partners
+---
+
+<%= partial 'header' %>
+
+<div class="section-title spacing-both">
+  <div class="container">
+    <h1>Thanks to our Partners</h1>
+  </div>
+</div>
+
+<div class="section-title spacing-both">
+  <div class="container">
+    <% data.sponsors.each do |meta| %>
+      <div class="accent-content">
+        <h2><%= meta.category %></h2>
+      </div>
+
+      <% meta.sponsors.each do |sponsor| %>
+        <div class="row">
+          <div class="col-1">
+            <%= link_to image_tag(sponsor.logo), sponsor.homepage, target: "_blank" %>
+          </div>
+          <div class="col-2">
+            <h3><%= sponsor.name %></h3>
+            <%= link_to sponsor.homepage, sponsor.homepage, target: "_blank", class: "fancy" %>
+            <%= sponsor.html %>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+
+<div class="spacing-both light">
+  <div class="container">
+    <h3>Call for sponsors</h3>
+
+    <p>
+      If your company is interested in supporting Partial – you can learn more
+      about the partner opportunities by following the link below.
+    </p>
+
+    <a href="/sponsorship" class="btn-primary">Become a partner</a>
+  </div>
+</div>
+
+<%= partial 'footer' %>

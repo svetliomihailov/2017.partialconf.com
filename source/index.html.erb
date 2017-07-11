@@ -106,9 +106,29 @@ title: Homepage
   </div>
 </div>
 
+<div class="spacing-both">
+  <div class="container accent-container">
+    <h2>Our partners</h2>
+
+    <div class='index-sponsors-section'>
+      <% data.sponsors.each do |meta| %>
+        <% meta.sponsors.each do |sponsor| %>
+          <span class="sponsor-avatar">
+            <%= link_to image_tag(sponsor.logo), sponsor.homepage, target: "_blank" %>
+          </span>
+        <% end %>
+      <% end %>
+    </div>
+
+    <div class='index-sponsors-section'>
+      <%= link_to 'Learn more', '/partners', class: 'btn-primary' %>
+    </div>
+  </div>
+</div>
+
 <div class="spacing-both light" id="sponsorship">
   <div class="container">
-    <h3>Call for sponsors</h3>
+    <h2>Call for sponsors</h2>
 
     <p>
       If your company is interested in supporting Partial – you can learn more
