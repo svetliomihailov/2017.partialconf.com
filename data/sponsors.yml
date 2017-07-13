@@ -1,6 +1,7 @@
 - category: Gold
   sponsors:
     - name: Tick42
+      id: tick-42
       logo: sponsors/tick42_logo.svg
       homepage: https://www.tick42.com/
       html: |
