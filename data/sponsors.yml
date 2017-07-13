@@ -6,6 +6,33 @@
       homepage: https://www.tick42.com/
       html: |
         <p>
-          <a class="fancy" href="https://www.tick42.com/">Tick42</a> is an international company with office in Sofia, London and New York, that delivers software to some of the world’s largest investment banks and hedge funds. We’re always looking for critically thinking people to <a class="fancy" href="https://www.tick42.com/careers">join</a> our Sofia team.
-          With a history of helping large corporate clients rethink the way that they structure internal development, we are particularly interested in how desktop and web applications can interwork to provide an enriched user experience. Our integration product, <a class="fancy" href="https://glue42.com/">Glue</a>, achieves that and as a consequence can help break down the barriers between development teams. This in turn enables developers to break free from the silos that restrict their imagination allowing for a more integrated and user-focused approach to UX and architecture.
+          <a class="fancy" href="https://www.tick42.com/">Tick42</a> is an
+          international company with office in Sofia, London and New York, that
+          delivers software to some of the world’s largest investment banks and
+          hedge funds. We’re always looking for critically thinking people to
+          <a class="fancy" href="https://www.tick42.com/careers">join</a> our
+          Sofia team.  With a history of helping large corporate clients
+          rethink the way that they structure internal development, we are
+          particularly interested in how desktop and web applications can
+          interwork to provide an enriched user experience. Our integration
+          product, <a class="fancy" href="https://glue42.com/">Glue</a>,
+          achieves that and as a consequence can help break down the barriers
+          between development teams. This in turn enables developers to break
+          free from the silos that restrict their imagination allowing for a
+          more integrated and user-focused approach to UX and architecture.
+        </p>
+
+- category: Silver
+  sponsors:
+    - name: Mozilla
+      id: mozilla
+      logo: sponsors/mozilla.svg
+      homepage: https://mozilla.org
+      html: |
+        <p>
+          At Mozilla, we’re a global community of technologists, thinkers and
+          builders working together to keep the Internet alive and accessible, so
+          people worldwide can be informed contributors and creators of the Web.
+          We believe this act of human collaboration across an open platform is
+          essential to individual growth and our collective future.
         </p>
