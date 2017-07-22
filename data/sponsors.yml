@@ -2,7 +2,7 @@
   sponsors:
     - name: Tick42
       id: tick-42
-      logo: sponsors/tick42_logo.svg
+      logo: sponsors/tick42.svg
       homepage: https://tick42.com
       html: |
         <p>
@@ -36,11 +36,31 @@
           We believe this act of human collaboration across an open platform is
           essential to individual growth and our collective future.
 
-          <br/><br/>Read the <a class="fancy" href="https://www.mozilla.org/en-US/about/manifesto">Mozilla Manifesto</a>
-          to learn even more about the values and principles that guide the pursuit of our mission
-        </p>
-        <p>
-          Read the <a href="https://www.mozilla.org/about/manifesto/">Mozilla
+          <br/><br/>
+
+          Read the <a class="fancy" href="https://www.mozilla.org/en-US/about/manifesto">Mozilla
           Manifesto</a> to learn even more about the values and principles that
           guide the pursuit of our mission
+        </p>
+
+    - name: Subvisual
+      id: subvisual
+      logo: sponsors/subvisual.svg
+      homepage: https://subvisual.co
+      html: |
+        <p>
+          <a class="fancy" href="https://subvisual.co">Subvisual</a> is a small
+          but powerful team, with a diverse set of skills, from Product
+          Strategy to Design and Development. With offices in Braga, Portugal
+          and Boston, US we are experts in making products come to life, from
+          ideas to full-fledged businesses.
+
+          <br/><br/>
+
+          We work alongside our clients to help them understand the problem
+          they are solving and the people who will use it, using a Human-centered
+          approach. All with the quality of true craftspeople and a completely
+          transparent process necessary for a productive partnership. From
+          conception to execution and business lift off, our team will help you
+          get to the right product.
         </p>
