@@ -1,6 +1,6 @@
 ---
 title: Bozhidar Batsov Interview
-date: 2017-07-25 14:00 UTC
+date: 2017-07-25 09:00 UTC
 tags: speaker
 ---
 
@@ -8,7 +8,7 @@ Following last week's interview with [Saša Jurić][Sasa], we are bringing you
 another one, this time by no other than [Bozhidar Batsov][Bozhidar]. [Bozhidar]
 will be talking to us about: Clojure: The Bad Parts.
 
-## Tell us a bit about yourself? (Simple introduction)
+## Tell us a bit about yourself?
 
 I'm the maintainer of [CIDER] and the editor of the community [Clojure] style
 guide. Most people would probably describe me as an Emacs zealot (and they
