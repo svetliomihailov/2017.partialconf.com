@@ -1,30 +1,96 @@
 - name: Michał Muskała
   tagline: Ecto Core Team
   image: speakers/michal.jpg
+  talk: Actor Model in Elixir
+  bio: |
+    Student during mornings, developer at afternoons and open source
+    contributor by evenings. Michal is programming languages enthusiast,
+    focusing mostly on the functional side. He is a member of the Elixir's Ecto
+    core team and maintainer of the MongoDB adapter. He's Google Summer of Code
+    2015 alumni, where he worked on Ecto and its MongoDB integration supervised
+    by José Valim himself. When not programming he enjoys reading books,
+    travelling, and sailing - no matter if sunny, rainy or stormy - it's even
+    better if all of those are combined!
 
 - name: Saša Jurić
   tagline: Elixir in Action
   image: speakers/sasa.png
+  talk: Basic Guarantees of Erlang VM (BEAM)
+  bio: |
+    Happy user of Elixir, and a satisfied customer of Erlang/OTP, currently
+    working on a privacy compliance solution at Aircloak. Author of "Elixir in
+    Action", and occasional blogger at theerlangelist.com.
 
 - name: Bozhidar Batzov
   tagline: Clojure, CIDER, Rubocop
   image: speakers/bozhidar.jpg
+  talk: Clojure: The Bad Parts
+  bio: |
+    Bozhidar is the author of RuboCop and the editor of the community Ruby
+    style guide. He's involved in a myriad of open-source projects, mostly
+    related to Ruby, Clojure and Emacs. Many people would probably describe him
+    as an Emacs zealot (and they would be right). He's also quite fond of the
+    Lisp family of languages, functional programming in general and Clojure in
+    particular.
 
 - name: Ilias Van Peer
   tagline: Elm Aficionado
   image: speakers/ilias.png
+  talk: Elm
+  bio: |
+    Coffee. Code. Other stuff.
 
 - name: Anjana Vakil
   tagline: JS Immutable Structures
   image: speakers/anjana.jpg
+  talk: Immutable Data Structures for Functional JS
+  bio: |
+    Functional programming has been gaining a lot of popularity in the JS
+    community, and with good reason: rejecting side-effects and mutability -
+    in-place changes to data - helps avoid a lot of headaches. But when you
+    refuse to mutate objects, you have to create a whole new object each time
+    something changes, which can slow things down and eat up memory, making
+    functional programming seem inefficient.
+
+    That’s where immutable data structures come in - to save the day, and time
+    and space! Also called “persistent data structures”, they help you
+    efficiently make new “modified” versions of immutable objects, by reusing
+    parts of the old object that you don’t need to change.
+
+    In this talk we’ll take a look at how these data structures work, why
+    they’re fantastic for functional programming, and how we can easily use
+    them in our JS code thanks to libraries like Mori and Immutable.js.
 
 - name: Emin Hasanov
   tagline: ClojureScript + React Native
   image: speakers/emin.png
+  talk: Using Clojurescript to Launch iOS/Android Apps to 1M Users
+  bio: |
+    Story of how a small company in Azerbaijan used ClojureScript + React
+    Native to launch iOS/Android apps to its one million website users. I will
+    go through how we were able to quickly develop and iterate both iOS and
+    Android versions at the same time, how we connected existing Rails app to
+    provide a Transit API, and how we use CodePush to provide over-the-air
+    updates without going through app stores.
 
 - name: Anna Doubkova
   tagline: React FP
   image: speakers/anna.jpg
+  talk: |
+    Functional programming can greatly improve readability and scalability of
+    your code - yet on front-end, we seem stuck with vaguely (un)defined
+    principles. One of the most used libraries on the front-end React doesn’t
+    seem to be very functional-friendly with all its classes. However, it does
+    follow some functional patterns, and we as developers can choose to use
+    these to the maximum. In this talk, you’ll learn what these patterns are,
+    how redux fits into the picture with immutability and pure functions, and
+    how you can make your async flow easy to reason about with functional
+    libraries.
+  bio: |
+    Anna is a javascript developer who loves working with new technologies.
+    Currently working at PizzaHut, she does full-stack development to deliver a
+    great end to end solution focused on user experience. She's a frequent
+    speaker, runs workshops, and likes contributing to the community.
 
 - name: Pedro Costa
   tagline: Functional Discipline
