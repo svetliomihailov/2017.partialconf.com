@@ -1,0 +1,20 @@
+- name: Kjetil Valle
+  tagline: Creating Programming Language
+  image: speakers/kjetil.jpg
+  talk: Creating Programming Language from Scratch
+  bio: |
+    Kjetil is a developer at BEKK, a Norwegian consultancy, where he is also
+    practice lead for functional programming. He is a strong believer in
+    learning new languages and finding out how things work. He loves sharing of
+    knowledge, both by speaking himself and by enabling others to do so. He is
+    an organizer of the conferences Oslo Elm Day and JavaZone, as well as the
+    local meetup group Osλo Haskell.
+
+- name: Kamen Kotsev
+  tagline: Scala is Love
+  image: speakers/kamen.jpg
+  talk: Scala is Love
+  bio: |
+    Кamen is a Scala entusiast and a teacher. Likes spending his time
+    optimising frameworks and algorithms. Plays volleyball and StarCraft in his
+    free time. Loves meeting new people and drinking beer!

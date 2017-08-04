@@ -938,7 +938,7 @@ textarea { resize: vertical; }
 
 .speakers {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   flex-wrap: wrap;
 
   .speaker {

@@ -24,7 +24,7 @@
 - name: Bozhidar Batzov
   tagline: Clojure, CIDER, Rubocop
   image: speakers/bozhidar.jpg
-  talk: Clojure: The Bad Parts
+  talk: "Clojure: The Bad Parts"
   bio: |
     Bozhidar is the author of RuboCop and the editor of the community Ruby
     style guide. He's involved in a myriad of open-source projects, mostly
