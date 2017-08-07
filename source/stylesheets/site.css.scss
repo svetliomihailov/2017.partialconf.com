@@ -1356,3 +1356,30 @@ textarea { resize: vertical; }
     }
   }
 }
+
+.article-list {
+  .article {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+  }
+
+  .article-image {
+    margin-right: 1em;
+
+    img {
+      display: block;
+      width: 300px;
+    }
+  }
+
+  .article-description {
+    width: 100%;
+  }
+
+  h4 {  }
+  h4 {
+    margin-bottom: 1em;
+    color: $blue;
+  }
+}

@@ -33,13 +33,6 @@
     Lisp family of languages, functional programming in general and Clojure in
     particular.
 
-- name: Ilias Van Peer
-  tagline: Elm Aficionado
-  image: speakers/ilias.png
-  talk: Elm
-  bio: |
-    Coffee. Code. Other stuff.
-
 - name: Anjana Vakil
   tagline: JS Immutable Structures
   image: speakers/anjana.jpg
@@ -76,16 +69,7 @@
 - name: Anna Doubkova
   tagline: React FP
   image: speakers/anna.jpg
-  talk: |
-    Functional programming can greatly improve readability and scalability of
-    your code - yet on front-end, we seem stuck with vaguely (un)defined
-    principles. One of the most used libraries on the front-end React doesn’t
-    seem to be very functional-friendly with all its classes. However, it does
-    follow some functional patterns, and we as developers can choose to use
-    these to the maximum. In this talk, you’ll learn what these patterns are,
-    how redux fits into the picture with immutability and pure functions, and
-    how you can make your async flow easy to reason about with functional
-    libraries.
+  talk: Functional Programming in React
   bio: |
     Anna is a javascript developer who loves working with new technologies.
     Currently working at PizzaHut, she does full-stack development to deliver a
@@ -95,16 +79,7 @@
 - name: Pedro Costa
   tagline: Functional Discipline
   image: speakers/pedro.jpg
-  talk: |
-    How do you go functional but without breaking your client’s application
-    code? Or without rewriting the whole thing? Despite having most of our
-    codebases in Ruby and Javascript, we at Subvisual have been gradually
-    changing how we tackle problems without having to change the language.
-    We’re taking the lessons from functional languages like Elixir and Haskell
-    and applying them in our projects to rip benefits that would otherwise
-    require a complete rewrite. In this talk, I will show you some patterns and
-    techniques that we are using right now to gradually move our projects
-    already in production to more functional approaches.
+  talk: The Functional Discipline
   bio: |
     Self proclaimed Chief Over-Engineering Officer at Subvisual. Jumped from
     the world of HPC to the Web with Ruby. I have a shady past involving Java and
@@ -114,23 +89,7 @@
 - name: Yulia Startsev
   tagline: Side Effects Saga
   image: speakers/yulia.jpg
-  talk: |
-    Functional programming has become popular for building robust, complex UIs.
-    Using React and Redux for example, alleviates many of the issues commonly
-    found in UI programming. One in particular is making changes in state are
-    clear and predictable. However, there are some problems which continue to
-    be painful. Asynchronicity is one such pain point, since changes to state
-    which are asynchronous are difficult to predict and reason about.
-
-    In the Firefox debugger, we have explored two options within the react
-    ecosystem for dealing with this: thunk args and sagas.They take two different
-    approaches to the problem of communicating with an async resource and
-    updating the state. Using a recent refactoring of debugger breakpoints as a
-    case study, we will explore the strengths and weaknesses of each. In the
-    process we will clarify the rationale and histories behind the patterns, how
-    they solve the issue, and show how we came to our chosen solution. While the
-    talk will be focused on the issue from a front-end/UI perspective, it might
-    prove an interesting inspiration for similar problems in other places!
+  talk: Side Effects Saga
   bio: |
     Yulia Startsev is a self taught programmer. Her first attempt at
     programming was at age 12, scripting a Half life mod that placed a number
@@ -144,16 +103,14 @@
 - name: Ivan Vergiliev
   tagline: Persistent Data Structures
   image: speakers/ivan.jpg
-  talk: |
-    When learning functional programming, one thing I frequently heard and read
-    was "Oh, just ignore the performance, the concept is what's important". And
-    while somewhat valid for teaching the basics, this approach is completely
-    inappropriate for most kinds of production code. You do need performance.
-
-    And one of the more important things to be performant is the data structures.
-    In the talk, I'll describe some of the main ideas in designing purely
-    functional data structures, as well as some more specific implementation
-    details.
+  talk: Persistent Data Structures
   bio: |
     Machine Learning and Algorithms enthusiast. Ex-Facebook and Google (x2)
     intern.
+
+- name: Ilias Van Peer
+  tagline: Elm Aficionado
+  image: speakers/ilias.png
+  talk: Elm
+  bio: |
+    Coffee. Code. Other stuff.
