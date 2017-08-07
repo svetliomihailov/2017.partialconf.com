@@ -57,14 +57,14 @@ title: Homepage
   <div class="container">
     <div class="speakers">
       <% data.speakers.each do |speaker| %>
-      <div class="speaker">
-        <div class="avatar">
-          <%= image_tag speaker.image %>
-        </div>
+        <a href="/speakers#<%= speaker.name.parameterize %>" class="speaker">
+          <div class="avatar">
+            <%= image_tag speaker.image %>
+          </div>
 
-        <strong><%= speaker.name %></strong>
-        <small><%= speaker.tagline %></small>
-      </div>
+          <strong><%= speaker.name %></strong>
+          <small><%= speaker.tagline %></small>
+        </a>
       <% end %>
 
       <% data.trainers.each do |speaker| %>

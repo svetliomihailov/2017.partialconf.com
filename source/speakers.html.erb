@@ -14,7 +14,7 @@ title: Partners
   <div class="container">
     <div class="article-list">
       <% data.speakers.each do |speaker| %>
-        <div class="article">
+        <div class="article" id="<%= speaker.name.parameterize %>">
           <div class="article-image">
             <%= image_tag speaker.image %>
           </div>
