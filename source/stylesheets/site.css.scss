@@ -1366,10 +1366,11 @@ textarea { resize: vertical; }
 
   .article-image {
     margin-right: 1em;
+    width: 300px;
 
     img {
       display: block;
-      width: 300px;
+      width: 100%;
     }
   }
 
@@ -1377,9 +1378,18 @@ textarea { resize: vertical; }
     width: 100%;
   }
 
-  h4 {  }
   h4 {
     margin-bottom: 1em;
     color: $blue;
+  }
+
+  @include bp($bp-mobile) {
+    .article {
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .article-image { width: 100%; margin-right: 0; margin-bottom: 1em; }
+    .article-description { width: 100%; }
   }
 }
