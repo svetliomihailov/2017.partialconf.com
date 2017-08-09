@@ -57,7 +57,7 @@ title: Homepage
   <div class="container">
     <div class="speakers">
       <% data.speakers.each do |speaker| %>
-        <a href="/speakers#<%= speaker.name.parameterize %>" class="speaker">
+        <a href="/lineup#<%= speaker.name.parameterize %>" class="speaker">
           <div class="avatar">
             <%= image_tag speaker.image %>
           </div>
@@ -69,9 +69,11 @@ title: Homepage
 
       <% data.trainers.each do |speaker| %>
       <div class="speaker">
-        <div class="avatar">
-          <%= image_tag speaker.image %>
-        </div>
+        <a href="/lineup#<%= speaker.name.parameterize %>" class="speaker">
+          <div class="avatar">
+            <%= image_tag speaker.image %>
+          </div>
+        <a?
 
         <strong><%= speaker.name %></strong>
         <small><%= speaker.tagline %></small>
