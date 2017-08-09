@@ -1371,6 +1371,10 @@ textarea { resize: vertical; }
     img {
       display: block;
       width: 100%;
+
+      -moz-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+      -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+      clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
     }
   }
 
