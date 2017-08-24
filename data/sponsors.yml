@@ -28,16 +28,16 @@
       homepage: https://tick42.com
       html: |
         <p>
-          <a class="fancy" href="https://www.tick42.com/">Tick42</a> is an
+          <a class="fancy" href="https://www.tick42.com/" target="blank">Tick42</a> is an
           international company with office in Sofia, London and New York, that
           delivers software to some of the world’s largest investment banks and
           hedge funds. We’re always looking for critically thinking people to
-          <a class="fancy" href="https://www.tick42.com/careers">join</a> our
+          <a class="fancy" href="https://www.tick42.com/careers" target="blank">join</a> our
           Sofia team.  With a history of helping large corporate clients
           rethink the way that they structure internal development, we are
           particularly interested in how desktop and web applications can
           interwork to provide an enriched user experience. Our integration
-          product, <a class="fancy" href="https://glue42.com/">Glue</a>,
+          product, <a class="fancy" href="https://glue42.com/" target="blank">Glue</a>,
           achieves that and as a consequence can help break down the barriers
           between development teams. This in turn enables developers to break
           free from the silos that restrict their imagination allowing for a
@@ -60,8 +60,8 @@
 
           <br/><br/>
 
-          Read the <a class="fancy" href="https://www.mozilla.org/en-US/about/manifesto">Mozilla
-          Manifesto</a> to learn even more about the values and principles that
+          Read the <a class="fancy" href="https://www.mozilla.org/en-US/about/manifesto" target="blank">
+          Mozilla Manifesto</a> to learn even more about the values and principles that
           guide the pursuit of our mission
         </p>
 
@@ -71,7 +71,7 @@
       homepage: https://subvisual.co
       html: |
         <p>
-          <a class="fancy" href="https://subvisual.co">Subvisual</a> is a small
+          <a class="fancy" href="https://subvisual.co" target="blank">Subvisual</a> is a small
           but powerful team, with a diverse set of skills, from Product
           Strategy to Design and Development. With offices in Braga, Portugal
           and Boston, US we are experts in making products come to life, from
@@ -91,14 +91,13 @@
   sponsors:
     - name: Toptal
       logo: sponsors/toptal.svg
-      homepage: https://www.toptal.com
+      homepage:  http://toptal.com/top-3-percent?utm_source=partial2017&utm_medium=logo&utm_campaign=sponsorships
       html: |
         <p>
-          Toptal is an exclusive network of the top freelance software
-          developers and designers in the world.
+          Toptal is an exclusive network of the top freelance software developers, designers,
+          and finance experts in the world.
 
           <br/><br/>
 
-          Top companies all over the globe rely on Toptal freelancers for their
-          most important projects.
+          Top companies rely on Toptal freelancers for their most important projects.
         </p>
