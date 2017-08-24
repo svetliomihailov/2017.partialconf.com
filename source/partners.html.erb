@@ -24,7 +24,7 @@ title: Partners
           </div>
           <div class="col-2">
             <h3><%= sponsor.name %></h3>
-            <%= link_to sponsor.homepage, sponsor.homepage, target: "_blank", class: "fancy" %>
+            <%= link_to URI(sponsor.homepage).host, sponsor.homepage, target: "_blank", class: "fancy" %>
             <%= sponsor.html %>
           </div>
         </div>
