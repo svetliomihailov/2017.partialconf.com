@@ -1357,6 +1357,13 @@ textarea { resize: vertical; }
   }
 }
 
+.sponsor-avatar-small {
+  img {
+    width: 12em;
+    height: 12em;
+  }
+}
+
 .article-list {
   .article {
     display: flex;
