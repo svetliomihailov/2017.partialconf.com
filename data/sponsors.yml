@@ -87,6 +87,18 @@
           get to the right product.
         </p>
 
+- category: Bronze
+  sponsors:
+    - name: HackSoft
+      id: hacksoft
+      logo: sponsors/hacksoft.svg
+      homepage: https://hacksoft.io
+      html: |
+        <p>
+          HackSoft is a software company that makes end-to-end software solutions – from design & architecture, to project management and development,
+          testing and support.
+        </p>
+
 - category: Goodie Bag
   sponsors:
     - name: Toptal
