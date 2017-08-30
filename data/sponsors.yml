@@ -6,18 +6,19 @@
       homepage: https://www.emerchantpay.com
       html: |
         <p>
-          eMerchantPay is an established payment service provider that
-          provides international online, mobile and POS payment processing services
-          to merchants across the globe. eMerchantPay’s fraud prevention services
-          and payment processing solutions enable merchants to increase their
-          conversion rates, expand their customer reach and prevent fraud.
-          Innovative payment solutions, processing in more than 150 currencies and
-          various languages, plus dedicated account managers providing personal
-          service make eMerchantPay a knowledgeable specialist and an innovative
-          partner for businesses of all types and sizes.<br><br>We are a
-          self-funded, product-based company, and working on a number of
-          challenging (both code and infrastructure), high-uptime (99.99%) payment
-          products, utilising predominantly the Ruby and Rails stack.
+          eMerchantPay is a leading online, mobile and POS payment service provider.
+          We help e-commerce businesses of all sizes and sectors accept payments via multiple
+          customer touch points. Designed to increase conversions, our offering includes robust
+          payment processing technology, coupled with popular alternative payment methods and a range
+          of acquiring services. eMerchantPay Limited is registered as an authorised Electronic Money
+          Institution (EMI) and has the FCA’s permission to issue electronic money (e-money)
+          and provide payment services under registration number
+          <a class="fancy" href="https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000003jN1U9AAK" target="blank">900778</a>.
+
+          <br/><br/>
+          We are a self-funded, product-based company, and working on a number of challenging
+          (both code and infrastructure), high-uptime (99.99%) payment products, utilising
+          predominantly the Ruby and Rails stack.
         </p>
 
 - category: Gold
